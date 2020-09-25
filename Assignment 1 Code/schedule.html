@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Lists, Tables and Forms</title>
+		<link href="styles.css" type="text/css" rel="stylesheet" />
+	</head>
+
+	<body>
+		<div id="page">
+			<!--Menu bar-->
+			<div class="menu-holder">
+				<nav id="header-main-menu">
+					<ul class="main-menu ">
+						<li>
+							<a href="index.html">Home</a>
+						</li>
+						<li>
+							<a href="schedule.html">Courses</a>
+						</li>
+						<li>
+							<a href="index.html">About</a>
+						</li>
+						<li>
+							<a href="hobbies.html">Hobbies</a>
+						</li>
+						<li>
+							<a href="index.html">Blog</a>
+						</li>
+						<li>
+							<a href="contact.html">Contact</a>
+						</li>
+					</ul>
+				</nav>
+            </div>
+			
+			<!--Puts space between menu bar and main page text-->
+			<br/>
+
+			<h1 class= "center-text"> My Courses </h1>
+			
+			<!--Course table-->
+			<div class = "center-mid-2">
+				<div class ="center-2">
+					<h1> Fall 2020 Schedule</h1>
+
+					<p>
+						Within these courses I am learning a number of new 
+						programming languages such as SQL, SML, HTML, CSS, and 
+						Javascript.
+					</p>
+
+					<p>
+						On Fridays, I have no class and am able to focus on 
+						personal projects and interviews.
+					</p>
+
+					<table class ="center-2">
+						<tr class="head">
+							<th></th>
+							<th>Monday</th>
+							<th>Tuesday</th>
+							<th>Wednesday</th>
+							<th>Thursday</th>
+						</tr>
+
+						<tr>
+							<th>Database Design and Development</th>
+							<td></td>
+							<td>1:30pm - 2:50pm</td>
+							<td>6:40pm - 8:30pm</td>
+							<td>1:30pm - 2:50pm</td>
+						</tr>
+
+						<!--Even class used to denote whether even or odd 
+						vertically-numbered table row-->
+						<tr class="even">
+							<th>Mobile Web Design and Development</th>
+							<td>1:30pm - 2:50pm</td>
+							<td></td>
+							<td>1:30pm - 2:50pm</td>
+							<td></td>
+						</tr>
+
+						<tr>
+							<th>Principles of Functional Programming</th>
+							<td></td>
+							<td>11:40am - 1pm</td>
+							<td>4pm - 5:20pm</td>
+							<td>11:40am - 1pm</td>
+						</tr>
+
+						<tr class="even">
+							<th>Organizational Behavior</th>
+							<td></td>
+							<td>3:20pm - 4:40pm</td>
+							<td></td>
+							<td>3:20pm - 4:40pm</td>
+						</tr>
+
+						<tr>
+							<th>Business Communications</th>
+							<td>11:40am - 1pm</td>
+							<td></td>
+							<td>11:40am - 1pm</td>
+							<td></td>
+						</tr>
+					</table>
+				</div>
+			</div>
+
+			<!--Footer element-->
+			<footer class="footer center-text">
+				<div>
+					<p> © 2020 </p>
+					<div class="socialmedia"> 
+						<a href="#">
+							<span class="twitter"> <img class= "smlogo" src="img/f081.png"/></span>
+						</a> 
+						<a href="#">
+							<span class="facebook"> <img class= "smlogo" src="img/f082.png"/></span>
+						</a> 
+						<a href="#">
+							<span class="fa fa-pinterest-p"> <img class= "smlogo" src="img/f083.png"/> </span>
+						</a> 
+					</div>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>
