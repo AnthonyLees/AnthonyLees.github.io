@@ -1,0 +1,131 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    color: #9BB5D0;
+    text-align: center;
+    font-size:95%;
+    box-sizing: border-box;
+    background-color: #2C4870;
+}
+
+#title{
+    padding-left: 28.8px;
+    font-size: 50px;
+}
+
+#main-image {
+    position: relative;
+    top: 20px;
+}
+
+.line{
+    width: 100%;
+    border-bottom: 2px solid black;
+    position: relative;
+    top: 20px;
+    }
+
+#header h1, #nav a{
+    color: #000000;
+    font-family: "Sansita", sans-serif;
+    text-decoration: none;
+} 
+
+#nav {
+    margin-top: 20px;
+    padding-bottom: 19.2px;
+}
+
+#nav, #footer, #title {
+    clear:both;
+    display: block;
+    margin:auto;
+    }
+
+li {
+    font-family: "open sans", sans-serif;
+    position: relative;
+    top: 11px;
+    text-align: left;
+    display: inline;
+    padding: 20px 40px;
+    text-decoration:none;
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 25px;
+    position: relative;
+    top: 10px;
+}
+
+#explanation {
+    font-size: 18px;
+    position: relative;
+    top: 10px;
+}
+
+.spotlight {
+    position: relative;
+    top: 20px;
+}
+
+.section-1 {
+    border: 2px solid #000000;
+    background-color: #9BB5D0;
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    position:relative;
+    top: 50px;
+    left: 20px;
+    margin: 10px auto 2px 300px;
+}
+
+.section-2 {
+    border: 2px solid #000000;
+    background-color: #9BB5D0;
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    position:relative;
+    top: 50px;
+    left: 20px;
+    margin: -240px auto 2px 700px;
+}
+
+.section-3 {
+    border: 2px solid #000000;
+    background-color: #9BB5D0;
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    position:relative;
+    top: 70px;
+    left: 20px;
+    margin: 30px auto 2px 300px;
+}
+
+.section-4 {
+    border: 2px solid #000000;
+    background-color: #9BB5D0;
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    position:relative;
+    top: 70px;
+    left: 20px;
+    margin: -236px auto 2px 700px;
+}
+.column1of2 {
+    float: left;
+    width: 700px;
+    margin: 10px;}
+.column2of2 {
+    float: left;
+    width: 300px;
+    margin: 10px;}
+
+.move-down {
+    position:relative;
+    top: 20px;
+}
